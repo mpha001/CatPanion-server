@@ -63,12 +63,3 @@ export default [
     notes: "colors: b0f0ff f0f4f6 b7b6b7 f8afcd",
   },
 ];
-
-[
-  "Review code and pull requests",
-  "Write and debug new features or bug fixes",
-  "Attend stand-up meetings and team discussions",
-  "Meeting with Sam at 1pm",
-  "Read article on Top 10 AI tricks",
-  "Update documentation"
-];
