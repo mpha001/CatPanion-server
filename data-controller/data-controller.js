@@ -50,7 +50,8 @@ const editSingleUser = async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({
-      message: `Unable to retrieve single user data for with ID ${req.params.user_id}`,
+      message: `Unable to retrieve single user data for with ID ${req.params.user_id} `,
+      error: `${error}`,
     });
   }
 };
